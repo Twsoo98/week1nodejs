@@ -7,8 +7,8 @@ function finishprogram(err,data){
 
 function rereading(err){
 	if(err) return err;
-	console.log("Finish appending file");
-	console.log("Begin re-reading file");
+	console.log("Finish appending file!");
+	console.log("Begin re-reading file!");
 	fs.readFile("input.txt",finishprogram)
 }
 
